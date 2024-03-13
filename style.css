@@ -3,16 +3,72 @@
     /* la propiedad mas importante del seteo de estilos   */
 
     box-sizing: border-box;
-    color: brown;
+    color: rgb(173, 171, 171);
     font-size: 1.1rem ;
     font-weight: 400;
     font-family: lanteros, "Roboto", sans-serif;
     text-decoration: none;
     list-style: none;
-    width: 300px;
+    
 
     padding: 0;
     margin: 0;
     outline: none;
+
+    border: solid 2px red;
+
+}
+
+
+.navbar__nav {
+    display: flex;
+    
+
+    justify-content: space-between;
+    padding: 20px;
+    color: #f1f1f1;
+    align-items: center;
+    
+
+
+
+
+}
+
+
+.navbar__nav__list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+
+
+
+}
+
+
+.navbar__nav__iconomueble {
+    width: 36px;
+    height: 36px;
+
+
+
+
+}
+
+.button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #019587;
+    color: #f1f1f1;
+    transition: all .3s ease-in;
+    font-weight: bold;
+
+}
+
+.button:hover {
+    
+    background-color: #212c2b;
+    color: #f1f1f1;
 
 }
