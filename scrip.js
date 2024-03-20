@@ -80,3 +80,57 @@ if (variable) {
  * <=   Menor o igual que
  * 
  */
+
+
+const handlerClick = () => {
+    const cadena= "esto es una cadena de texto"
+
+console.log (cadena) 
+
+}
+
+handlerClick () 
+
+
+const button = document.getElementById ("handler-button") 
+
+if (button !== null) {
+   button.addEventListener ("click", () => {
+    const cadena= "esto es una cadena de texto"
+
+    console.log (cadena)
+
+   })
+}
+
+
+/* console.log (axios) */
+
+axios.get ( "https://leonardoapi.onrender.com/songs")
+     .then ((res) => {
+       /* console.log (res.data.songs) */
+
+        res.data.songs.map ( (song) => {
+           /* console.log(song. path.front) */
+           const div= document.createElement ("div")
+           div.classList.add ("colocar la clase de css")
+
+           div.innerHTML = `
+           < img src= "${song.path.front}" alt="" class=>
+           
+           ` //colocar el contenido del div
+
+           TextTrackList.appendchild (div)
+       
+       
+        }  )
+     }) 
+
+
+     
+
+
+
+ 
+
+

@@ -74,6 +74,169 @@
 }
 
 
+.jumbotron {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #f2f2f2;
+    padding: 30px;
+}
+
+.jumbotron__background {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+   
+}
+
 @keyframes identifier {
     
 }
+
+.jumbotron__h1 { 
+    padding: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: #f1f1f1;
+
+}
+
+.jumbotron__button, .boton1, .boton2, .boton3 { 
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #019587;
+    color: #f2f2f2;
+    
+
+}
+
+.seccion1__div  {
+    display: flex;
+    height: 500px;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    
+    
+
+    
+
+    
+} 
+
+.seccion1__div__flecha {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.seccion1__div__flecha2 {
+    height: 36px;
+    width: 36px;
+    
+} 
+
+.seccion1__div__caja, .seccion1__div__caja2, .seccion1__div__caja3  {
+    padding: 30px 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+
+
+    
+}
+
+
+.seccion__h2 {
+    color: #c24b4b;
+    text-align: center;
+    padding: 20px;
+
+   
+
+    
+} 
+
+.imagen_mueble1, .imagen_mueble2, .imagen_mueble3 {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #5a6463;
+    
+    
+}
+
+.seccion2__imagen {
+    transform: translateX(20px) translateY(20px);
+    width: 700px;
+    height:400px ;
+    
+    
+
+
+    
+}
+
+.seccion2__texto {
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px 30px;
+    gap: 20px;
+    
+}
+
+.seccion3 {
+    display: flex;
+    background-color: #879391;
+    align-items: center;
+
+    
+
+    
+
+    
+}
+
+.seccion3__div {
+    margin-bottom: 200px;
+
+
+}
+
+
+.seccion3__imagen {
+    position: absolute;
+
+
+}
+
+   
+
+

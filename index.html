@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <header class="navbar">
@@ -33,7 +33,7 @@
 
         </ul>
 
-        <button class="button">Contáctanos</button>
+        <button id="handel-button">Contáctanos</button>
 
     </nav>
     
@@ -44,13 +44,14 @@
 
     <main>
 
-        <section> 
+        <section class="jumbotron"> 
 
-            <h1>Comodidad y confort en un solo lugar</h1>
+            <h1 class="jumbotron__h1">Comodidad y confort
+                 en un solo lugar</h1>
 
-            <button>Conoce nuestro catálgo</button>
+            <button class="jumbotron__button">Conoce nuestro catálgo</button >
 
-            <img src="/assets/image 1.png" alt="">
+            <img src="/assets/image 1.png" alt="" class="jumbotron__background">
 
 
         </section>
@@ -58,39 +59,41 @@
 
         <section>
 
-            <h2> Promos para el hogar</h2>
+            <h2 class="seccion__h2"> Promos para el hogar</h2>
 
-            <div>
+             
 
-                <img src="/assets/Frame 2.png" alt="">
-                <div>
-                    <img src="/assets/Rectangle 16.png" alt="">
+            <div class="seccion1__div">
+
+                <img src="/assets/Frame 2.png" alt="" class="seccion1__div__flecha">
+                <div class="seccion1__div__caja">
+                    <img src="/assets/Rectangle 16.png" alt="" class="imagen_mueble1">
                     <p>es simplemente el texto de relleno de las imprentas 
                         y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las 
                         </p>
-                    <button>ver más</button>
+                    <button class="boton1">ver más</button>
                 </div>
 
-                <div>
-                    <img src="/assets/image .1.png" alt="">
+                <div class="seccion1__div__caja2">
+                    <img src="/assets/image .1.png" alt="" class="imagen_mueble2">
                     <p>es simplemente el texto de relleno de las imprentas 
                         y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las 
                         </p>
-                    <button>ver más</button>
+                    <button class="boton2">ver más</button>
                 </div>
 
 
-                <div>
+                <div class="seccion1__div__caja3">
 
-                    <img src="/assets/image 3.1.png" alt="">
+                    <img src="/assets/image 3.1.png" alt="" class="imagen_mueble3">
                     <p>es simplemente el texto de relleno de las imprentas 
                         y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las 
                         </p>
-                    <button>ver más</button>
+                    <button class="boton3">ver más</button>
                 </div>
 
 
-                <img src="/assets/Frame (1)m.png" alt="">
+                <img src="/assets/Frame (1)m.png" alt="" class="seccion1__div__flecha2">
 
 
 
@@ -102,17 +105,20 @@
 
         </section>
 
+       
 
-        <section>
 
-            <img src="/assets/Mujer comprando.png" alt="">
+        <section class="seccion2">
+            <img src="/assets/Mujer comprando.png" alt="" class="seccion2__imagen">
 
-            <div>
+           
+
+            <div class="seccion2__texto">
 
                 <h3>Comprar en linea nunca ha sido tan facil</h3>
-                <p>es simplemente el texto de relleno de las imprentas
-                    y archivos de texto. Lorem Ipsum ha sido el texto 
-                   de relleno estándar de las industrias desde el año
+                <p>es simplemente el texto de relleno de las imprentas <br>
+                    y archivos de texto. Lorem Ipsum ha sido el texto <br>
+                   de relleno estándar de las industrias desde el año <br>
                     1500, cuando un </p>
             </div>
 
@@ -120,9 +126,9 @@
 
         </section>
 
-        <section>
+        <section class="seccion3">
 
-            <div>
+            <div class="seccion3__div">
 
             <h4>Haz tus sueños realidad con nuestra nueva línea alemana  </h4>
             <p>es simplemente el texto de relleno de las imprentas
@@ -133,7 +139,7 @@
             <button>Ver más</button>
             </div>
 
-            <img src="/assets/mueble-azul 1.png" alt="">
+            <img src="/assets/mueble-azul 1.png" alt="" class="seccion3__imagen">
         </section>
 
 
@@ -169,6 +175,12 @@
         <img src="/assets/Frame6.png" alt="">
 
         <button>contáctanos</button>
+
+        <div id="">
+            <p></p>
+
+
+        </div>
 
 
     </footer>
