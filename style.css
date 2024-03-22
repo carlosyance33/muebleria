@@ -216,6 +216,8 @@
     display: flex;
     background-color: #879391;
     align-items: center;
+    
+    
 
     
 
@@ -226,17 +228,88 @@
 
 .seccion3__div {
     margin-bottom: 200px;
+    padding: 20px;
+    
+    
 
 
 }
 
 
 .seccion3__imagen {
-    position: absolute;
+    transform: translateY(-65px);
 
 
 }
 
+.boton__seccion3 {
+    border-radius: 10px;
+    padding: 5px 10px; 
+}
+
    
 
+.seccion4 {
+    display: flex;
+}
 
+.seccion4 .sala1, 
+.seccion4 .bano1, 
+.seccion4 .cuarto1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+
+}
+.seccion4 h3 {
+    color: #f2f2f2;
+}
+
+
+ 
+.seccion4 .sala1 img, 
+.seccion4 .bano1 img, 
+.seccion4 .cuarto1 img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(.7);
+    transition: transform .3s ease-in, filter .3s ease-in;
+}
+.seccion4 .sala1:hover img, 
+.seccion4 .bano1:hover img, 
+.seccion4 .cuarto1:hover img{
+    transform: scale(1.1);
+    filter: brightness(1);
+
+}
+
+.contenedor__sala {
+    position: relative;
+    z-index: -10;
+}
+
+.texto__sala {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagen__sala., .imagen__bano , .imagen__cuarto {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
